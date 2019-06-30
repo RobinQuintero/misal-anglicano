@@ -6,7 +6,8 @@ export const ritosiniciales = [
         title: 'canto de entrada',
         songs:[
             {
-                title:'Canto de entrada 1'
+                title:'Canto de entrada 1',
+                filename: 'entrada1'
             }
         ] 
     },
@@ -128,7 +129,8 @@ export const ritosiniciales = [
         title:"Canto de perdón",
         songs:[
             {
-                title:'Canto de perdon 1'
+                title:'Canto de perdon 1',
+                filename: 'perdon1'
             }
         ]
     },
@@ -188,7 +190,10 @@ export const palabra = [
         type:'audio',
         title: 'Canto palabra',
         songs:[
-
+            {
+                title:'Canto palabra 1',
+                filename: 'palabra1'
+            }
         ]
     },
     {
@@ -237,7 +242,12 @@ export const palabra = [
         key:9,
         type:'audio',
         title:'Canto aleluya',
-        text:``
+        songs: [
+            {
+                title: 'Canto aleluya 1',
+                filename: 'aleluya1'
+            }
+        ]
     },
     {
         key:10,
@@ -361,7 +371,10 @@ export const credo = [
         type:'audio',
         title:'Canto ofertorio',
         songs:[
-
+            {
+                title:'Canto ofertorio 1',
+                filename:'ofertorio1'
+            }
         ]
     },
     {

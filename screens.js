@@ -6,10 +6,15 @@ import './db'
 import { ritosiniciales, palabra, credo, eucaristia, ritosfinales } from './db';
 import { ScrollView } from 'react-native-gesture-handler';
 import { Dropdown } from 'react-native-material-dropdown';
+import {playPause, cargar} from './App'
+
+
+
 
 
 class MenuButton extends Component {
 	render(){
+    
         return(
             <View>
                 <TouchableOpacity onPress={() => {this.props.navigate.openDrawer()} }>
@@ -49,8 +54,13 @@ populate = (elementosdb, elems) =>{
 }
 
 
-function cambiarcancion(){
-    alert("cancion cambiada")
+function cambiarcancion(valor, canciones){
+    
+    for (i=0; i<canciones.length; i++){
+      if(canciones[i].title == valor){
+        cargar(canciones[i].filename)
+      }
+    }
 }
 
 function cambiarestadocancion(){
@@ -117,9 +127,12 @@ export class HomeScreen extends Component{
   }
 
   export class BotonPlay extends Component{
+    constructor(props){
+      super(props)
+    }
     render(){
       return(
-        <TouchableOpacity activeOpacity={.8} onPress={()=>cambiarestadocancion()} style={{
+        <TouchableOpacity activeOpacity={.8} onPress={()=>playPause()} style={{
           width:50,
         height:50,
         backgroundColor:'#039be5', 
@@ -147,12 +160,19 @@ export class HomeScreen extends Component{
   }
 
 export  class Reproductor extends Component{
+  
     
     constructor(props){
         super(props)
         this.state={
             playing:false
         }
+        this.onChangeText = this.onChangeText.bind(this);
+
+    }
+
+    onChangeText(text) {
+      cambiarcancion(text, this.props.canciones)
     }
 
     render(){
@@ -176,15 +196,16 @@ export  class Reproductor extends Component{
             <View style={{width:"10%"}}></View>
             <View style={{width:"60%",backgroundColor:'#039be5', borderRadius:5, paddingHorizontal:10}}>
             <Dropdown
+                ref={child => {this.child = child}} {...this.props} 
                 label={this.props.titulo}
                 data={elems}
                 style={{color:"white"}}
                 baseColor="white"
-                onChangeText={()=>cambiarcancion()}
+                onChangeText={this.onChangeText}
             />
             </View>
             <View style={{flex:1, alignItems:"center",justifyContent:"center",width:"20%"}}>
-            <BotonPlay text={texto} onPress={()=> alert("1")}/>
+            <BotonPlay onPress={()=> alert("1")}/>
             </View>
             <View style={{width:"10%"}}></View>
           </View>
@@ -200,9 +221,12 @@ export class RitosIniciales extends Component{
         headerStyle:{backgroundColor:"white"},
         headerTintColor:"#212121"
       });
+      
     render(){
         let elems = []
         populate(ritosiniciales, elems)
+        cargar('entrada1')
+        
         return(
             <View>
             <StatusBar
