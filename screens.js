@@ -159,6 +159,39 @@ export class HomeScreen extends Component{
     }
   }
 
+  export class BotonPlayGlobal extends Component{
+    constructor(props){
+      super(props)
+    }
+    render(){
+      return(
+        <TouchableOpacity activeOpacity={.8} onPress={()=>playPause()} style={{
+          width:50,
+        height:50,
+        backgroundColor:'#039be5', 
+        borderRadius:50,
+        shadowColor: "#29b6f6",
+        shadowOffset: {
+          width: 2,
+          height: 2,
+        },
+        shadowOpacity: 1,
+        shadowRadius: 2.62,
+        elevation: 4,
+  
+        }}>
+          <View style={{flex:1, justifyContent:"center", paddingLeft:2.5}} >
+          <Image
+                source={require('./img/play.png')}
+                style={{ width: 25, height: 25, marginLeft: 10 }} 
+                
+            />
+          </View>
+        </TouchableOpacity>
+      )
+    }
+  }
+
 export  class Reproductor extends Component{
   
     
@@ -199,6 +232,7 @@ export  class Reproductor extends Component{
                 ref={child => {this.child = child}} {...this.props} 
                 label={this.props.titulo}
                 data={elems}
+                value={elems[0].value}
                 style={{color:"white"}}
                 baseColor="white"
                 onChangeText={this.onChangeText}
@@ -217,7 +251,7 @@ export class RitosIniciales extends Component{
     static navigationOptions =  ({ navigation }) => ({
         title: 'Ritos Iniciales',
         headerLeft: <MenuButton navigate={navigation} />,
-        headerRight:<BotonPlay/>,
+        headerRight:<BotonPlayGlobal/>,
         headerStyle:{backgroundColor:"white"},
         headerTintColor:"#212121"
       });
