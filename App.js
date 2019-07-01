@@ -39,7 +39,17 @@ export const cargar = (archivo)=>{
   }
 }
 
+export const play = ()=>{
+  SoundPlayer.play()
+}
 
+export const pause = ()=>{
+  SoundPlayer.pause()
+}
+
+export const isPlaying = ()=>{
+  return playing
+}
 
 type Props = {};
 const Drawer = createAppContainer(DrawerNavigator)

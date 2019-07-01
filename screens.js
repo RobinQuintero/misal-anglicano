@@ -129,10 +129,14 @@ export class HomeScreen extends Component{
   export class BotonPlay extends Component{
     constructor(props){
       super(props)
+      this.onPress = this.onPress.bind(this)
+    }
+    onPress(){
+      alert("presionado")
     }
     render(){
       return(
-        <TouchableOpacity activeOpacity={.8} onPress={()=>playPause()} style={{
+        <TouchableOpacity activeOpacity={.8} onPress={this.onPress} style={{
           width:50,
         height:50,
         backgroundColor:'#039be5', 
@@ -162,10 +166,15 @@ export class HomeScreen extends Component{
   export class BotonPlayGlobal extends Component{
     constructor(props){
       super(props)
+      this.onPress = this.onPress.bind(this)
+    }
+
+    onPress(){
+      playPause()
     }
     render(){
       return(
-        <TouchableOpacity activeOpacity={.8} onPress={()=>playPause()} style={{
+        <TouchableOpacity activeOpacity={.8} onPress={this.onPress} style={{
           width:50,
         height:50,
         backgroundColor:'#039be5', 
