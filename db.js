@@ -476,9 +476,262 @@ export const credo = [
 ]
 
 export const eucaristia = [
-
+    {
+        type:'text',
+        color:'blue',
+        text:`\n"SURSUM CORDA"`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: EL SEÑOR ESTÉ CON TODOS VOSOTROS`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nA: Y CON TU ESPRÍRITU`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: LEVANTEMOS EL CORAZÓN`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`A: LO TENEMOS LEVANTADO HACIA EL SEÑOR`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`S: DEMOS GRACIAS AL SEÑOR, NUESTRO DIOS`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`A: ES JUSTO Y NECESARIO`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nEN VERDAD ES JUSTO Y NECESARIO, ES NUESTRO DEBER Y SALVACIÓN DARTE GRACIAS SIEMPRE Y EN TODO LUGAR. SEÑOR PADRE SANTO, DIOS TODO PODEROSO Y ETERNO, POR CRISTO NUESTRO SEÑOR. AMEN\nPORQUE CON TU HIJO Y EL ESPÍRITU SANTO SON COETERNOS, UN SOLO DIOS EN TRINIDAD Y PERSONA, EN UNIDAD DE NATURALEZA, CELEBRAMOS LA ÚNICA E IGUAL GLORIA QUETÚ TIENES, OH PADRE, CON EL HIJO Y CON EL ESPÍRITU SANTO.\nPOR ESO INNUMERABLES ÁNGELES EN TU PRESENCIA, CONTEMPLANDO LA GLORIA DE TU ROSTRO TE SIRVEN SIEMPRE, Y TE GLORIFICAN SIN CESAR, Y CON ELLOS TAMBIÉN NOSOTROS, LLENOS DE ALEGRÍA. Y CON NUESTRA VOZ UNIDA A LAS DEMÁS CRIATURAS, CLAMAMOS TU NOMBRE CANTANDO...`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nSANTO, SANTO, SANTO\n`
+    },
+    {
+        type:'audio',
+        title:'Canto santo',
+        songs:[
+            {
+                title:'Canto santo 1',
+                filename: 'santo1'
+            }
+        ]
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\n\nRECONOCEMOS TU SANTIDAD, PADRE OMNIPOTENTE. POR ESO TE PEDIMOS QUE CON LA FUERZA DE TU ESPÍRITU BENDIGAS ESTA OFRENDA, ESTE SACRIFICIO HECHO UNA VEZ Y PARA SIEMPRE DESDE LA CRUZ POR TU HIJO JESUCRISTO. EL CUAL, LA MISMA NOCHE EN QUE FUE ENTREGADO TOMÓ PAN, Y HABIENDO DADO GRACIAS, LO PARTIÓ Y LO DIO A SUS DISCIPULOS DICIENDO:\n"TOMAD Y COMED, TODOS DE ÉL. ESTE ES MI CUERPO, QUE SERÁ ENTREGADO POR VOSOTROS".\nDESPUÉS DE LA CENA, TOMÓ EL CÁLIZ, Y DANDO GRACIAS LO ENTREGÓ A ELLOS DICIENDO:\n"TOMAD Y BEBED TODOS DE ÉL, PORQUE ESTE ES EL CÁLIZ DE MI SANGRE, SANGRE DEL NUEVO TESTAMENTO, QUE ES DERRAMADA POR VOSOTROS Y POR TODOS LOS HOMBRES PARA PERDÓN DE LOS PECADOS; HACED ESTO EN CONMEMORACIÓN MÍA".`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: ESTE ES JESUCRISTO, EL SACRAMENTO DE NUESTRA FE`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nA: ANUNCIAMOS TU MUERTE, PROCLAMAMOS TU RESURRECCIÓN, HASTA QUE VUELVAS SEÑOR.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nC.P: POR TANTO, OH SEÑOR Y PADRE CELESTIAL, NOSOTROS, TUS HUMILDES SIERVOS, CELEBRAMOS Y HACEMOS AQUÍ ANTE TU DIVINA MAJESTAD, EL MEMORIAL QUE TU HIJO NOS HA MANDADO HACER.\n\nCC1: Y AQUÍ, SEÑOR, NOS PRESENTAMOS Y HACEMOS OFRENDA DE NOSOTROS MISMOS, COMO UN SACRIFICIO RAZOABLE, SANTO Y VIVO PARA TÍ. PARA QUE SEAMOS LLENOS DE TU GRACIA Y BENDICIÓN CELESTIAL, Y HECHOS CON CRISTO UN SOLO CUERPO Y UN SOLO ESPÍRITU, PARA QUE ÉL HABITE EN NOSOTROS, Y NOSOTROS EN ÉL.\n\nCC2: DA GRACIA, OH PADRE, A TODOS LOS OBISPOS, SACERDOTES Y DIÁCOOS. TE PEDIMOS HUMILDEMENTE QUE CONSOLIDES EN LA PAZ Y LA UNIDAD A:\n\n-EL ARZOBISPO DE CANTERBURY, SU GRACIA JUSTIN WELBY\n\n-EL PATRIARCA ORTODOXO, SU BEATITUD BARTOLOMEO DE GRECIA\n\n-EL OBISPO DE ROMA, SU SANTIDAD EL PAPA FRANCISCO\n\n-POR NUESTRO OBISPO JULIO CESAR DIAZGRANADOS Y SUS OBISPOS AUXILIARES Y AGREGADOS`
+    },
+    {
+        type:'text',
+        color:'red',
+        text:`\nCUANDO LA EUCARISTÍA ES PRESIDIDA POR UN OBISPO, ÉSTE DICE:`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nPOR MÍ, INDIGNO SIERVO TUYO Y MIS DEMÁS HERMANOS OBISPOS QUE COMPARTEN LA MISIÓN APOSTÓLICA. QUE PUEDAN, TANTO CON SU VIDA COMO CON SU DOCTRINA, PRESENTAR AL MUNDO TU PALABRA DE VERDAD Y DE VIDA, Y ADMINISTRAR RECTA Y DEBIDAMENTE TUS SANTOS SACRAMENTOS`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nCC3: Y ASÍ MISMO, BENDECIMOS TU SANTO NOMBE POR TODOS LOS SIERVOS QUE HAN PARTIDO DE ESTA VIDA EN TU FE Y TEMOR. ACUERDATE DE NUESTRO(A)(S) HERMANO(A)(S) N.N. CONCÉDELE(S) UN LUGAR PRIVILEGIADO EN TU REINO, POR EL AMOR Y SERVICIO EN QUE VIVIERON. Y A NOSOTROS DANOS TU GRACIA PARA SEGUIR DE TAL MODO SUS BUENOS EJEMPLOS. QUE CON ELLOS SEAMOS PARTÍCIPES DE TU GLORIA CELESTIAL`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nCC4: Y HAS QUE UN DÍA PODAMOS PARTICIPAR JUNTO A SANTA MARÍA VIRGEN, A SAN PATRICIO, TODOS LOS APÓSTOLES Y LOS SANTOS, EN EL CANTO JUBILOSO DE TU GLORIA. POR JESUCRISTO, NEUSTRO SEÑOR. AMÉN`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nFIN DE LA PLEGARIA`
+    },
+    {
+        type:'text',
+        color:'red',
+        text:`\nEL SACERDOTE Y EL DIÁCONO, ELEVAN LA HOSTIA, DICIENDO SOLAMENTE EL QUE PRESIDE:`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nPOR CRISTO, CON ÉL Y EN ÉL, A TI DIOS PADRE OMNIPOTENTE, EN UNIÓN CON EL ESPÍRITU SANTO, TODO HONOR Y TODA GLORIA, POR LOS SIGLOS DE LOS SIGLOS, AMÉN`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nLLENOS DE ALEGRÍA POR SER HIJOS DE DIOS, ELEVEMOS LA PLEGARIA QUE CRISTO NOS ENSEÑÓ`
+    },
+    {
+        type:'audio',
+        title:'Padre nuestro',
+        songs:[
+            {
+                title:'Padre nuestro 1',
+                filename:'padrenuestro1'
+            }
+        ]
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nPADRE NUESTRO QUE ESTÁS EN EL CIELO, SANTIFICADO SEA TU NOMBRE, VENGA TU REINO, HAGASE TU VOLUNTAD EN LA TIERRA COMO EN EL CIELO, DANOS HOY NUESTRO PAN DE CADA DÍA, PERDONA NUESTRS OFENSAS ASÍ COMO TAMBIÉN NOSOTROS PERDONAMOS A LOS QUE NOS OFENDEN, NO NOS DEJES CAER EN LA TENTACIÓN Y LIBRANOS DEL MAL.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nPORQUE TUYO ES EL REINO, TUYO EL PODER Y LA GLORIA. POR SIEMPRE, SEÑOR. AMÉN.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nSEÑOR JESUCRISTO QUE DIJISTE A TUS APÓSTOLES, MI PAZ OS DEJO, MI PAZ OS DOY, NO MIRES NUESTROS PECADOS SINO LA FE DE TU IGLESIA. Y CONFORME A TU PALABRA CONCÉDENOS LA PAZ Y LA UNIDAD. TÚ QUE VIVES Y REINAS, POR LOS SIGLOS DE LOS SIGLOS. AMÉN.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\n\nS: LA PAZ DEL SEÑOR ESTÉ CON VOSOTROS`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nA: Y CON TU ESPÍRITU`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: COMPARTAMOS EL SALUDO DE LA PAZ`
+    },
+    {
+        type:'audio',
+        title:'Canto de paz',
+        songs:[
+            {
+                title:'Canto de paz 1',
+                filename:'evenushalom1'
+            }
+        ]
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nA: CORDERO DE DIOS, TÚ QUE QUITAS EL PECADO DEL MUNDO, TEN PIEDAD DE NOSOTROS. CORDERO DE DIOS, TÚ QUE QUITAS EL PECADO DEL MUNDO, TEN PIEDAD DE NOSOTROS. CORDERO DE DIOS, TÚ QUE QUITAS EL PECADO DEL MUNDO, DANOS LA PAZ.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: ESTE ES EL CORDERO DE DIOS, QUE QUITA LOS PECADOS DEL MUNDO. DICHOSOS LOS INVITADOS A ESTA SANTA MESA.`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nNOSOTROS NO NOS ATREVEMOS A VENIR A ESTA TU MESA SEÑOR MISERICORDIOSO CONFIADOS EN NUESTRA RECTITUD, SINO EN TUS MUCHAS Y GRANDES MISERICORDIAS. NO SOMOS DIGNOS NI DE RECOGER LAS MIGAJAS DEBAJO DE TU MESA. MAS TÚ ERES EL MISMO SEÑOR, SIEMPRE MISERICORDIOSO POR NATURALEZA, CONCÉDENOS POR TANTO, SEÑOR, POR TU CLEMENCIA, QUE DE TAL MODO COMAMOS LA CARNE DE TU AMADO HIJO JESUCRISTO Y BEBAMOS SU SANGRE. QUE NUESTROS CUERPOS PECADORES SEAN LIMPIOS POR SU CUERPO Y NUESTRAS ALMAS SEAN LAVADAS POR SU PRECIOSÍSIMA SANGRE Y QUE SIEMPRE VIVAMOS EN ÉL, Y ÉL EN NOSOTROS. AMÉN.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: EL CUERPO Y LA SANGRE DE NUESTRO SEÑOR JESUCRISTO NOS GUARDEN PARA LA VIDA ETERNA. AMÉN.`
+    },
+    {
+        type:'text',
+        color:'black',
+        text:`\nLOS DONES DE DIOS PARA EL PUEBLO DE DIOS.`
+    },
+    {
+        type:'text',
+        color:'green',
+        text:`\nA: CANTO DE COMUNIÓN`
+    },
+    {
+        type:'audio',
+        title:'Canto de comunión',
+        songs:[
+            {
+                title:'Canto comunion 1',
+                filename:'comunion1'
+            }
+        ]
+    }
 ]
 
 export const ritosfinales = [
-
+    {
+        type:'text',
+        color:'black',
+        text:`\nS: EL SEÑOR ESTÉ CON VOSOTROS`
+    },{
+        type:'text',
+        color:'green',
+        text:`\nA: Y CON TU ESPÍRITU`
+    },{
+        type:'text',
+        color:'black',
+        text:`\nS: OREMOS:\nOMNIPOTENTE Y SEMPITERNO DIOS, TE DAMOS LAS GRACIAS PORQUE NOS HAS NUTRIDO CON EL ALIMENTO ESPIRITUAL DEL CUERPO Y LA SANGRE DE TU HIJO Y PORQUE NOS ASEGURAS EN ESTOS SANTOS MISTERIOS QUE SOMOS MIEMBROS VIVOS DEL CUERPO DE TU HIJO Y HEREDEROS DE TU REINO ETERNNO. Y AHORA PADRE, ENVÍANOS AL MUNDO PARA CUMPLIR LA MISIÓN QUE TÚ NOS HAS ENCOMENDADO, PARA AMARTE Y SERVIRTE COMO FIELES TESTIGOS DE CRISTO NUESTRO SEÑOR. A ÉL Y A TÍ Y AL ESPÍRITU SANTO SEA TODO HONOR Y TODA GLORA. AHORA Y POR SIEMPRE. AMÉN`
+    },{
+        type:'text',
+        color:'blue',
+        text:`\n\nEN ESTE INTERMEDIO SE PUEDE DAR INFORMACIÓN A LA COMUNIDAD.`
+    },{
+        type:'text',
+        color:'black',
+        text:`\nS: EL SEÑOR ESTÉ CON VOSOTROS`
+    },{
+        type:'text',
+        color:'green',
+        text:`\nA: Y CON TU ESPÍRITU`
+    },{
+        type:'text',
+        color:'black',
+        text:`\nS: LA PAZ DE DIOS QUE SOBREPASA TODO ENTENDIMIENTO GUARDE VUESTROS CORAZONES Y MENTES EN EL CONOCIMIENTO Y AMOR DE DIOS Y DE SU HIJO JESUCRISTO NUESTRO SEÑOR.`
+    },{
+        type:'text',
+        color:'green',
+        text:`\nA: AMÉN`
+    },{
+        type:'text',
+        color:'black',
+        text:`\nS: LA BENDICIÓN DE DIOS OMNIPOTENTE. EL PADRE, EL HIJO Y EL ESPÍRITU SANTO DESCIENDA SOBRE VOSOTROS Y OS ACOMPAÑE PARA SIEMPRE. AMÉN`
+    },{
+        type:'text',
+        color:'green',
+        text:`\n\nCANTO DE DESPEDIDA`
+    },{
+        type:'audio',
+        title:'Canto de despedida',
+        songs:[
+            {
+                title:'Canto de despedida 1',
+                filename:'despedida1'
+            }
+        ]
+    }
 ]

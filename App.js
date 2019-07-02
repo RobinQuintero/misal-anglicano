@@ -20,20 +20,24 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-let playing = false
+export let playing = false
+export let actualSong = ''
   
 export const playPause = ()=>{
-  if(playing){
-    SoundPlayer.pause()
-  }else{
-    SoundPlayer.play()
+  if(actualSong!=''){
+    if(playing){
+      SoundPlayer.pause()
+    }else{
+      SoundPlayer.play()
+    }
+    playing = !playing
   }
-  playing = !playing
 }
 
-export const cargar = (archivo)=>{
+export const cargar = (archivo, titulo)=>{
   try{
     SoundPlayer.loadSoundFile(archivo, 'mp3')
+    actualSong = titulo
   }catch (e) {
     console.log(`cannot play the sound file`, e)
   }
@@ -47,9 +51,6 @@ export const pause = ()=>{
   SoundPlayer.pause()
 }
 
-export const isPlaying = ()=>{
-  return playing
-}
 
 type Props = {};
 const Drawer = createAppContainer(DrawerNavigator)
