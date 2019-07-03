@@ -8,6 +8,10 @@ export const ritosiniciales = [
             {
                 title:'Canto de entrada 1',
                 filename: 'entrada1'
+            },
+            {
+                title:'Canto de entrada 2',
+                filename: 'entrada1'
             }
         ] 
     },
@@ -63,16 +67,13 @@ export const ritosiniciales = [
         key:9,
         type:'text',
         color:"red",
-        text: `
-        
-        PALABRAS DE CONSOLACIÓN`
+        text: `\n\nPALABRAS DE CONSOLACIÓN`
     },
     {
         key:10,
         type:'text',
         color:"black",
-        text: `
-        OÍD QUE CONFORTABLES PALABRAS NUESTRO SALVADOR CRISTO DIJO A TODOS LOS QUE SE CONVIERTEN VERDADERAMENTE A ÉL.\n"VENÍD A MÍ TODOS LOS QUE ESTÁIS CANSADOS Y AGOBIADOS, QUE YO OS ALIVIARÉ". MATEO 11, 28.\n"PORQUE TANTO AMÓ DIOS AL MUNDO, QUE LE DIO SU UNIGÉNITO HIJO PARA QUE TODO EL QUE CREA EN EL NO PEREZCA, SINO QUE TENGA VIDA ETERNA". JUAN 3, 16.`
+        text: `\nOÍD QUE CONFORTABLES PALABRAS NUESTRO SALVADOR CRISTO DIJO A TODOS LOS QUE SE CONVIERTEN VERDADERAMENTE A ÉL.\n"VENÍD A MÍ TODOS LOS QUE ESTÁIS CANSADOS Y AGOBIADOS, QUE YO OS ALIVIARÉ". MATEO 11, 28.\n"PORQUE TANTO AMÓ DIOS AL MUNDO, QUE LE DIO SU UNIGÉNITO HIJO PARA QUE TODO EL QUE CREA EN EL NO PEREZCA, SINO QUE TENGA VIDA ETERNA". JUAN 3, 16.`
     },
     {
         key:11,

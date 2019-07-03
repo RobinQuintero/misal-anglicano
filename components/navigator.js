@@ -1,6 +1,5 @@
-import React from 'react'
 import { createStackNavigator, createAppContainer, createDrawerNavigator} from "react-navigation";
-import {HomeScreen, Reproductor, RitosIniciales, Palabra, Credo, Eucaristia, RitosFinales} from './screens'
+import {HomeScreen, Reproductor, RitosIniciales, Palabra, Credo, Eucaristia, RitosFinales} from '../screens'
 
 
 export const HomeStack = createStackNavigator({
