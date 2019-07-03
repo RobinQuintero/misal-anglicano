@@ -1,3 +1,12 @@
+/*
+  App: Misal Anglicano v1.0
+  Author: Robin Quintero
+  Email: robinquinteroc@gmail.com
+  License: MIT
+
+  /components/playbutton.js
+  Simple play button.
+*/
 import React, {Component} from 'react';
 import {View, Image, TouchableOpacity} from 'react-native';
 export class PlayButton extends Component{

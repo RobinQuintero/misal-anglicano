@@ -1,4 +1,13 @@
+/*
+  App: Misal Anglicano v1.0
+  Author: Robin Quintero
+  Email: robinquinteroc@gmail.com
+  License: MIT
 
+  /components/services/player.js
+
+  Basic sound playing service used by PlayerComponent.
+*/
 import SoundPlayer from 'react-native-sound-player'
 export class Player{
   

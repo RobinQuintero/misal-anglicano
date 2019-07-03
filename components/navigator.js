@@ -1,6 +1,14 @@
-import { createStackNavigator, createAppContainer, createDrawerNavigator} from "react-navigation";
-import {HomeScreen, Reproductor, RitosIniciales, Palabra, Credo, Eucaristia, RitosFinales} from '../screens'
+/*
+  App: Misal Anglicano v1.0
+  Author: Robin Quintero
+  Email: robinquinteroc@gmail.com
+  License: MIT
 
+  /components/navigator.js
+  Main navigation wrapper.
+*/
+import { createStackNavigator, createDrawerNavigator} from "react-navigation";
+import {HomeScreen, RitosIniciales, Palabra, Credo, Eucaristia, RitosFinales} from '../screens'
 
 export const HomeStack = createStackNavigator({
   Home: {screen: HomeScreen}

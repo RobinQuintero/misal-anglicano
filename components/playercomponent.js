@@ -1,3 +1,14 @@
+/*
+  App: Misal Anglicano v1.0
+  Author: Robin Quintero
+  Email: robinquinteroc@gmail.com
+  License: MIT
+
+  /components/playercomponent.js
+  Recieves a list of songs and makes it possible to play
+  them using the player service (/components/services/player.js).
+*/
+
 import { Dropdown } from 'react-native-material-dropdown';
 import {Player} from './services/player'
 import { PlayButton} from './playbuttons'
@@ -5,13 +16,8 @@ import React, {Component} from 'react';
 import {View} from 'react-native';
 
 export  class PlayerComponent extends Component{
-  
-    
     constructor(props){
         super(props)
-        this.state={
-            playing:false
-        }
         this.onChangeText = this.onChangeText.bind(this);
     }
 
@@ -20,17 +26,13 @@ export  class PlayerComponent extends Component{
       cambiarcancion(text, this.props.songs)
     }
 
-    //NOTA: HAY QUE OPTIMIZAR ESTA FUNCIÓN
     playPress = ()=>{
       let value = this.child.state.value
       if(value == Player.getActualSong()){
         Player.playPause()
       }else{
-        
         this.cambiarcancion(value, this.props.songs)
-        
       }
-      
     }
 
     cambiarcancion = (valor, canciones) => {
@@ -44,18 +46,12 @@ export  class PlayerComponent extends Component{
     render(){
         let elems = []
         let songs = this.props.songs
-        let texto = ""
         for (i=0;i<songs.length;i++){
             elems.push(
                 {
                     value:songs[i].title
                 }
             )
-        }
-        if(this.state.playing == false){
-            texto = "false"
-        }else{
-            texto = "true"
         }
       return(
         <View style={{flex:1, flexDirection:"row", justifyContent:"space-around", marginVertical:10}}>

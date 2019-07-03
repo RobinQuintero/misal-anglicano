@@ -3,10 +3,10 @@
   Author: Robin Quintero
   Email: robinquinteroc@gmail.com
   License: MIT
-*/
 
-// App.js
-// Entry point for the App
+  /App.js
+  Entry point for the app.
+*/
 
 import { createStackNavigator, createAppContainer, createDrawerNavigator} from "react-navigation";
 import {DrawerNavigator} from './components/navigator'
